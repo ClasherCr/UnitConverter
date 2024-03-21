@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <!--suppress AndroidDomInspection -->
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/roboto_medium"
+        android:hint="@string/enter_weight_in_kilos"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#909090"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#70117CB5"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/convert_kilos"
+
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="24sp"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"/>
+</LinearLayout>
